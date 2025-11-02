@@ -19,11 +19,15 @@ waste_collection_schedule:
 
 **road_name**  
 _(string) (required)_  
-The name of the road the house is on
+The name of the road the house is on. You can include an optional house number (for example `22 street`).
 
 **postcode**  
 _(string) (required)_  
 The post code for the house
+
+**include_garden_waste**
+_(boolean) (optional, default `false`)
+Set to true if you want to include garden waste collections.
 
 ## Example
 
